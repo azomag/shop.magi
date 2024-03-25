@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Kanit:wght@200;400;500;600;700&family=Montserrat:wght@100;200;500;600;700&family=Playpen+Sans:wght@100;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Prompt:ital,wght@0,100;0,400;0,700;1,100;1,300&family=Questrial&display=swap');
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  color: white;
+  
+}
+li a:hover{
+  color: #cdb4db;
+  transition: all 0.5s ease-out;
+}
+.dropdown-content a {
+  float: none;
+  color: gray;
+  padding: 15px 15px;
+border-radius: 20px;
+  text-decoration: none;
+  display:flex ;
+  text-align: left;
+  transition: 1s;
+}
+.dropdown-content{
+  display: none;
+  border-radius: 20px;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 1s;
+}
+
